@@ -52,7 +52,7 @@ function render() {
   });
 }
 render();
-
+/*
 // Text stuff
 (function () {
   let textSize;
@@ -179,7 +179,7 @@ render();
 
   initPen();
 })();
-
+*/
 // Toolbar buttons
 (function () {
   let tooltype = localStorage.getItem(`${RENDER_OPTIONS.documentId}/tooltype`) || 'cursor';
